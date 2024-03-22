@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="3기 이재형">
+    <meta name="description" content="챌린지2 과제">
+    <meta name="keywords" content="페이지만들기, 챌린지, 오즈코딩스쿨">
+    <title>자아성찰 설문조사</title>
+</head>
+<body>
+    <header>
+    <h1>자아성찰 설문</h1>
+    </header>
+    <hr>
+    <main>
+        <form>
+        <fieldset>
+        <legend>개인정보</legend>
+        <label for="name">이름</label>
+        <input type="text" name="name" id="name" placeholder="닉네임을 입력하세요.">
+        <br>
+        <label for="email">이메일</label>
+        <input type="email" name="email" id="email" placeholder="이메일을 입력하세요.">
+        </fieldset>
+        <fieldset>
+        <legend>자아성찰</legend>
+        
+        <p>1. 본인은 수업에 열심히 참여하셨다고 생각합니까?</p>
+        <input type="radio" id="one" name="score">
+        <label for="one">1점</label>
+        <input type="radio" id="two" name="score">
+        <label for="two">2점</label>
+        <input type="radio" id="three" name="score">
+        <label for="three">3점</label>
+        <input type="radio" id="four" name="score">
+        <label for="four">4점</label>
+        <input type="radio" id="five" name="score">
+        <label for="five">5점</label>
+        
+        <p>2. 학원을 찾게된 경로는 어떻게되십니까?(중복가능)</p>
+        <input type="checkbox" id="map" name="academy">
+        <label for="map">1.SNS</label>
+        <input type="checkbox" id="map" name="academy">
+        <label for="map">2.HRD앱</label>
+        <input type="checkbox" id="map" name="academy">
+        <label for="map">3.직접 검색</label>
+        <input type="checkbox" id="map" name="academy">
+        <label for="map">4.광고</label>
+        <input type="checkbox" id="map" name="academy">
+        <label for="map">5.그외 기타</label>
+        <input type="other" id="ohter" placeholder="기타사항 입력">
+        
+        <p>3. 수업 과정중 어려운 점이 있습니까?(중복가능)</p>
+        <input type="checkbox" id="hard" name="academy2">
+        <label for="hard">1.Git&Github</label>
+        <input type="checkbox" id="hard" name="academy2">
+        <label for="hard">2.이론 강의</label>
+        <input type="checkbox" id="hard" name="academy2">
+        <label for="hard">3.과제</label>
+        <input type="checkbox" id="hard" name="academy2">
+        <label for="hard">4.visual studio code</label>
+        <input type="checkbox" id="hard" name="academy2">
+        <label for="hard">5.그외 기타</label>
+        <input type="other" id="ohter" placeholder="기타사항 입력(단축키)">
+        
+        <p>4. 좋았던 점은 무엇인가요?(중복가능)</p>
+        <input type="checkbox" id="choice" name="academy3">
+        <label for="choice">1.자세한 설명</label>
+        <input type="checkbox" id="choice" name="academy3">
+        <label for="choice">2.실시간 질문</label>
+        <input type="checkbox" id="choice" name="academy3">
+        <label for="choice">3.난이도별 수업</label>
+        <input type="checkbox" id="choice" name="academy3">
+        <label for="hard">4.맥북제공</label>
+        <input type="checkbox" id="choice" name="academy3">
+        <label for="choice">5.그외 기타</label>
+        <input type="other" id="ohter" placeholder="기타사항 입력">
+        
+        </fieldset>
+        <fieldset>
+        <legend>양심 고백</legend>
+        <textarea rows="3" cols="30" name="command"></textarea>
+        </fieldset>
+        <input type="submit">
+        </form>
+    </main>
+    <footer>
+    해당 설문은 실습용인 점 참고 부탁드립니다.
+    </footer>
+</body>
+</html>
