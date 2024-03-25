@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1회차 과제</title>
+</head>
+<body>
+    <h1 id="name">이름</h1>
+    <p id="pet">동물</p>
+    <p id="fruits">과일</p>
+
+    <script>
+
+        const nameElement = document.querySelector("#name")
+        nameElement.textContent = `이름은 (${prompt("당신의 이름은 무엇입니까?")}) 입니다.`
+
+        const petElement = document.querySelector("#pet")
+        petElement.textContent = `제가 좋아하는 동물은 (${prompt("당신이 좋아하는 동물은 무엇입니까?")}) 입니다.`
+
+        const fruitsElement = document.querySelector("#fruits")
+        fruitsElement.textContent = `제가 좋아하는 과일은 (${prompt("당신이 좋아하는 과일은 무엇입니까?")}) 입니다.`
+
+    </script>
+</body>
+</html>
