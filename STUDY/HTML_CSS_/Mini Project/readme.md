@@ -1,4 +1,4 @@
-Admin페이지 만들기
+<h1 sytyle="font-weight:bold">Admin페이지 만들기</h1>
 <br>
 제작중 (검색기능x, 카테고리별 표출 기능x, 페이지네이션기능x)
 <br>
