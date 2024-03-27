@@ -20,7 +20,7 @@ javascript + HTML + CSS 를 이용하여 admin페이지 구현
 #### 카테고리 내에서 검색 <img width="1040" alt="카테고리 내에서 검색기능" src="https://github.com/Feodevelop/OZcording/assets/164314390/367a3262-e998-4e97-9332-19be6c0a34a6">
 (대분류 - 전체, 소분류 - 공용)<br><br><br><br><br><br>
 <img width="1040" alt="카테고리 내에서 검색기능1" src="https://github.com/Feodevelop/OZcording/assets/164314390/fe094961-0e46-4cf9-9859-7d310e89a038">
-(상의 검색시 전체 카테고리중 공용 상의만 표출된 값을 확인 가능)<br><br><br><br><br><br>
+(상의 검색시 전체 카테고리중 공용 상의만 표출된 값을 확인 가능 - 검색창에 입력후 엔터 비활성화함 조회버튼을 통해서만 조회가능)<br><br><br><br><br><br>
 <img width="1040" alt="카테고리내에서 검색-미입력" src="https://github.com/Feodevelop/OZcording/assets/164314390/91f2ba0b-0609-4656-9f2d-3b5e2e5329c9"><img width="1040" alt="필터링 실패" src="https://github.com/Feodevelop/OZcording/assets/164314390/1fea1872-005d-4d7a-93bb-2cdb25cae400">
 * 카테고리 내에서 검색창에 아무것도 입력하지 않았을때 반응 (미입력 경고창 표출, 기존필터링값유지)<br><br><br><br><br><br>
 
