@@ -1,20 +1,29 @@
-<h1 sytyle="font-weight:bold">Admin페이지 만들기</h1>
-<br>
-제작중(생각나는 기능 구현 예정! 현재 모두 완료)
-<br>
-<hr>
-● 사용한 기술<br>
-1. html 마크업 언어<br>
-2. css<br>
-3. 자바스크립트
-<hr>
-● 현재 구현한 항목
-<br>
-1. 신규 등록 상품 옆 최종업데이트 날짜(현재 날짜가 아닌 최종으로 수정한 날짜를 표기)<br>
-2. 우측하단 제작자 블로그 링크.
-<img width="1046" alt="2024-03-26_4 18 28" src="https://github.com/Feodevelop/OZcording/assets/164314390/a31fc112-7ea5-4606-8d5b-5dce4a43178c">
-3. 전체선택 및 전체선택해제
-<img width="1046" alt="2024-03-26_4 18 38" src="https://github.com/Feodevelop/OZcording/assets/164314390/6cc4125a-c139-471b-a757-46ea893f42e4">
-4. 선택항목 선택 후 하단 삭제버튼 클릭시 선택항목 삭제
-<img width="1046" alt="2024-03-26_4 19 00" src="https://github.com/Feodevelop/OZcording/assets/164314390/2e575f06-c545-4d53-9e29-da0e4ba56183">
+# Oz_MiniProject_admin page
+javascript + HTML + CSS 를 이용하여 admin페이지 구현
 
+
+## 🖥️ 프로젝트 소개
+기본형식은 제공해주신 형태로 기능 구현 및 약간의 수정을 더하여 admin페이지를 만들었습니다.
+<br>
+
+### 🧑‍🤝‍🧑 맴버구성
+ - 1인 제작
+
+
+## 📌 주요 기능
+#### 선택 및 삭제 <img width="1040" alt="전체선택" src="https://github.com/Feodevelop/OZcording/assets/164314390/e0dd7898-d4c4-44ec-87db-97669e1848a4"><img width="1040" alt="삭제기능" src="https://github.com/Feodevelop/OZcording/assets/164314390/26efbcbf-d21b-4a7e-803e-37c3746803ae">
+- 전체선택
+- 항목별 선택
+- 테이블 삭제 기능 구현<br><br><br><br><br><br>
+#### 카테고리 <img width="1040" alt="카테고리 대,소" src="https://github.com/Feodevelop/OZcording/assets/164314390/10eada46-801f-4f14-80c7-fa878de2d9ee">
+- 대분류 소분류 각각 선택하여 필터링 가능<br><br><br><br><br><br>
+#### 카테고리 내에서 검색 <img width="1040" alt="카테고리 내에서 검색기능" src="https://github.com/Feodevelop/OZcording/assets/164314390/367a3262-e998-4e97-9332-19be6c0a34a6">
+(대분류 - 전체, 소분류 - 공용)<br><br><br><br><br><br>
+<img width="1040" alt="카테고리 내에서 검색기능1" src="https://github.com/Feodevelop/OZcording/assets/164314390/fe094961-0e46-4cf9-9859-7d310e89a038">
+(상의 검색시 전체 카테고리중 공용 상의만 표출된 값을 확인 가능)<br><br><br><br><br><br>
+<img width="1040" alt="카테고리내에서 검색-미입력" src="https://github.com/Feodevelop/OZcording/assets/164314390/91f2ba0b-0609-4656-9f2d-3b5e2e5329c9"><img width="1040" alt="필터링 실패" src="https://github.com/Feodevelop/OZcording/assets/164314390/1fea1872-005d-4d7a-93bb-2cdb25cae400">
+* 카테고리 내에서 검색창에 아무것도 입력하지 않았을때 반응 (미입력 경고창 표출, 기존필터링값유지)<br><br><br><br><br><br>
+
+#### 파일 최종 수정일자 표시 <img width="1040" alt="메인" src="https://github.com/Feodevelop/OZcording/assets/164314390/ace240b5-c19b-4cd5-8179-c090b6d22370">
+(상단 h3 옆에 년/월/일 순으로 최종수정일자를 표시되게함)
+* 이는 현재시간이 아닌 index파일의 최종수정일자를 뜻함.<br><br>
