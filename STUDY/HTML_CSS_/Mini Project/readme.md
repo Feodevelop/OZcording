@@ -8,7 +8,11 @@ javascript + HTML + CSS 를 이용하여 admin페이지 구현
 
 ### 🧑‍🤝‍🧑 맴버구성
  - 1인 제작
-
+ - 
+## ⚙️ 사용 기술
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 ## 📌 주요 기능
 #### 선택 및 삭제 <img width="1040" alt="전체선택" src="https://github.com/Feodevelop/OZcording/assets/164314390/e0dd7898-d4c4-44ec-87db-97669e1848a4"><img width="1040" alt="삭제기능" src="https://github.com/Feodevelop/OZcording/assets/164314390/26efbcbf-d21b-4a7e-803e-37c3746803ae">
